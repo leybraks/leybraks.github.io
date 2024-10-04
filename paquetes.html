@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodrally</title>
+    <link rel="icon" href="img/logo-removebg-preview.png">
+    <link rel="stylesheet" href="stylespaquetes.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="stylescart.css">
+    <style>
+        .leer-mas {
+          display: none; /* Ocultar las líneas adicionales por defecto */
+        }
+    
+        .mostrar {
+          display: block; /* Mostrar las líneas cuando se expanda */
+        }
+    
+        .boton-leer-mas {
+          cursor: pointer;
+          color: aqua;
+          text-decoration: none;
+          font-family: code;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+        (function(d, script) {
+        script = d.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://w.app/widget-v1/R7Lj1E.js';
+        d.getElementsByTagName('head')[0].appendChild(script);
+        }(document));
+        };
+        </script>
+    <script>
+        window.addEventListener('beforeunload', function() {
+            localStorage.setItem('scrollPosition', window.scrollY);
+        });
+    </script>
+    <script>
+        window.addEventListener('load', function() {
+            const scrollPosition = localStorage.getItem('scrollPosition');
+            if (scrollPosition !== null) {
+                window.scrollTo(0, scrollPosition);
+            }
+        });
+    </script>  
+</head>
+<body>
+    <header id="header">
+        <h2 class="title">Shopping Car</h2>
+        <div>
+            <img class="carrito" src="img/carrito-de-compras.png" alt="carrito compras">
+            <div id="numero"></div>
+        </div>
+    </header>
+    <div class="back">
+        <div class="opaco">
+            <div class="cabecera">
+                <div class="imagenLogo"></div>
+                <div class="titulo">
+                    <h1>Kodrally</h1>
+                </div>
+                <div class="nube1"></div>
+            </div>
+            <div class="cuerpo">
+                <div>
+                    <h2 class="subtitle">SOBRE NOSOTROS:</h2>
+                </div>
+                <div class="nosotros">
+                    <p>Somos mucho más que una plataforma virtual,<br>somos tus compañeros en la busqueda de <br>experiencias inolvidables. Nos apasiona convertir <br>tus sueños de viaje en realidad. Nuestra misión es <br>inspirarte a explorar el mundo y crear recuerdos <br> que perduren toda la vida</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="ofrecetitle">Lo que ofrecemos:</h2>
+    <div class="menu">
+        <a id="planes" href="index.html">Planes</a>
+        <a id="paquetes" href="paquetes.html" >Paquetes</a>
+    </div>
+    <div class="costa">
+        <div class="imagencosta">
+            <div id="costa1">
+                <h2 id="titulocosta">¡DESCUBRE <br> <b id="costaresaltar"> POZUZO </b><br> CON NOSOTROS!</h2>
+                <p class="textoCosta1">
+                ¡Únete a nosotros en una aventura <br>inolvidable! <br>Este es un paquete turistico el cual<br> sera de las cosas más emocionantes que realizaras ya que hay varias <br>actividades que esta encantadora <br>region tiene para ofrecer.</p>
+                <h2 id="incluye">Paquete<b id="costaresaltar"> turístico:</b></h2>
+                <ul id="extras">
+                    <li>Duración: 4 días/3 noches</li>
+                    <li>Costo aprox: 300 dólares (costo variable)</li>
+
+                </ul>
+                <h2 id="actividades"> <b id="costaresaltar"> ACTIVIDADES</b> PARA HACER:</h2>
+                <h3 id="dia">DIA 1:</h3>
+                <div class="imgCosta1" ></div>
+                <p id="Atitulo">ITINERARIO PARA EL DIA <b id="costaresaltar">1:</b> </p>
+                <ul id="mensaje">
+                    <li>Vuelo y bus con destino a Pozuzo.</li>
+                    <li>Llegada al albergue turístico Gstir <br> (incluye desayuno, tiene piscina y una buena <br> vista a la plaza principal).
+                    </li>
+                    <li>Resto del día libre para poder pasear por la <br>plaza de armas de Pozuzo, conocer restaurantes <br> o tiendas y descansar.
+                    </li>
+                </ul>
+            </div>
+            <div id="costa2">
+                <h3 id="dia">DIA 2:</h3>
+                <div class="imgpozuzo" id="imgdia2"></div>
+                <p id="Atitulo">ITINERARIO PARA EL DIA <b id="costaresaltar">2:</b> </p>
+                <ul id="mensaje">
+                    <li>Desayuno en el albergue y preparación para <br> las actividades del día.
+                    </li>
+                    <li>Visita al museo Schafferer: Incluye un guía de la  <br> zona. Este es buen punto para conocer la historia<br>de los primeros pobladores del lugar, así como <br>datos sobre Pozuzo.
+                    </li>
+                    <li>Almuerzo en "El típico Pozucino": Un restaurante<br>con comida pozucina y austroalemana que <br> cuenta con danzas típicas a modo de espectáculo <br>para los comensales.
+                    </li>
+                    <div class="leer-mas" id="lista1">
+                        <li>Transporte a la Casa Palmatambo: Es una casa <br>con gran cantidad de hustorias, puedes caminar <br>por la zona, ver la casa museo, participar de la <br>cocina y disfrutar de la visita de los monitos
+                        </li>
+                        <li>Retorno a la plaza de armas de Pozuzo y tiempo <br>libre para actividades a elección.
+                        </li>
+                    </div>
+                </ul>
+                <span class="boton-leer-mas" onclick="mostrarMas('lista1', this)">Leer más...</span>
+                <h3 id="dia">DIA 3:</h3>
+                <div class="imgpozuzo" id="imgdia3"></div>
+                <p id="Atitulo">ITINERARIO PARA EL DIA <b id="costaresaltar">3:</b> </p>
+                <ul id="mensaje">
+                    <li>Desayuno en el albergue y preparación para <br> las actividades del día.
+                    </li>
+                    <li>Transporte hasta la Poza de agua y sal: Aguas de<br>color turquesa que posee cantidades de <br>propiedades curativas.
+                    </li>
+                    <li>Almuerzo en "El típico Pozucino": Un restaurante<br>con comida pozucina y austroalemana que <br> cuenta con danzas típicas a modo de espectáculo <br>para los comensales.
+                    </li>
+                    <div class="leer-mas" id="lista2">
+                        <li>Tiempo para apreciar y bañarse en las aguas,<br>seguido de una comida en restaurante a elección.
+                        </li>
+                        <li>Transporte hacia la catarata Delfín, mismo para <br>vislumbrar el "Cañón de Huancabamba".
+                        </li>
+                        <li>Tiempo para bañarse en las pozas.</li>
+                        <li>Retorno a la plaza de armas de Pozuzo y tiempo <br>libre para actividades a elección.
+                        </li>
+                    </div>
+                </ul>
+                <span class="boton-leer-mas" onclick="mostrarMas('lista2', this)">Leer más...</span>
+                <script>
+                    function mostrarMas(idLista, boton) {
+                      const elementos = document.getElementById(idLista);
+                      
+                      // Mostrar los elementos adicionales
+                      if (elementos.classList.contains('mostrar')) {
+                        elementos.classList.remove('mostrar');
+                        boton.textContent = "Leer más...";
+                      } else {
+                        elementos.classList.add('mostrar');
+                        boton.textContent = "Leer menos...";
+                      }
+                    }
+                  </script>
+            </div>
+            <div class="costa3">
+                <h3 id="dia4">DIA 4:</h3>
+                <div class="imgpozuzo" id="imgdia4"></div>
+                <p id="Atitulo2">ITINERARIO PARA EL DIA <b id="costaresaltar">4:</b></p>
+                <ul id="mensaje2">
+                    <li>Desayuno en el albergue.</li>
+                    <li>Tiempo para visitar la fábrica de cervezas <br>Dorcher,la réplica de un barco en la plaza <br>  de armas y otros atractivos.
+                    </li>
+                    <li>Preparación para dejar el albergue.</li>
+                    <li>Vuelo y bus con destino a Lima.</li>
+                </Ul>
+
+                <h2 class="agradecimiento">Gracias por su</h2>
+                <h2 class="agadecimiento" id="agradecimientoresaltar">preferencia</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-contenedor">
+          <div class="footer-seccion">
+            <h4>Sobre nosotros</h4>
+            <p>Somos una empresa dedicada a ofrecer experiencias de viaje únicas y personalizadas. Nuestro objetivo es hacer que tus aventuras sean inolvidables.</p>
+          </div>
+      
+          <div class="footer-seccion">
+            <h4>Enlaces útiles</h4>
+            <ul>
+              <li><a href="/terminos-condiciones">Términos y Condiciones</a></li>
+              <li><a href="/politica-privacidad">Política de Privacidad</a></li>
+              <li><a href="/preguntas-frecuentes">Preguntas Frecuentes (FAQ)</a></li>
+              <li><a href="/contacto">Contacto</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-seccion">
+            <h4>Síguenos</h4>
+            <div class="redes-sociales">
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-derechos">
+          <p>&copy; 2024 Kodrally. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+      <script src="app1.js"></script>
+</body>
+</html>

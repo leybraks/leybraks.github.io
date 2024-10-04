@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+}
+.imagenLogo{
+    margin-top: 80px;
+    background-image: url("img/logo-removebg-preview.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.cabecera {
+    display: flex;
+    box-sizing: border-box;
+
+}
+.titulo{
+    font-size: 70px;
+    margin:auto;
+    font-family: "TitleStyle";
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.nube1{
+    width: 150px;
+    height: 150px;
+}
+.cuerpo{
+    text-align: center;
+
+}
+.nosotros{
+    font-family: "code";
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 0;
+}
+.subtitle{
+    font-family: "subTitle";
+    font-size: 30px;
+}
+.back{
+    background-image: url("img/portada-lima.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.opaco{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0008,#000);
+}
+.redes{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.contRedes{
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+}
+#instagram{
+    background-image: url("img/insta.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+#gmail{
+    background-image: url("img/gmail.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+#telefono{
+    background-image: url("img/logo-whatsapp-verde-icone-ios-android-4096.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+#subredes{
+    margin-left: 20px;
+}
+.contContact{
+    display: flex;
+    box-sizing: border-box;
+}
+.contacto{
+    margin-left: 10px;
+}
+.costa,#selva{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    background-image: url("img/totora.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.textoCosta1{
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: code;
+    margin-left: 10%;
+}
+#planes{
+    margin: 0;
+    font-family: code;
+    font-size: 50px;
+    background: linear-gradient(white,#0008);
+    color: black;
+    border-radius: 0px 10px 0px 0px;
+    width: 100%;
+    text-decoration: none;
+    font-family: TitleStyle;
+    font-weight: bold;
+    padding-top:20px;
+    border: 5px solid #000;
+}
+#paquetes{
+    margin: 0;
+    font-family: TitleStyle;
+    font-size: 50px;
+    background: white;
+    color: black;
+    border-radius: 10px 0px 0px 0px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top:20px;
+    border: 5px solid #000;
+}
+#titulocosta,#tituloSelva,#titulosierra{
+    margin-left:10%;
+    font-size: 60px;
+    font-family: subtitle;
+}
+#tituloSelva,#titulosierra{
+    color: white;
+}
+#costaresaltar{
+    color: aqua;
+}
+.menu{
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+}
+#ofrecetitle{
+    font-family: TitleStyle;
+    font-size: 60px;
+}
+.imagencosta,#imagenselva{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0001,#000);
+}
+#costa1{
+    width: 35%;
+}
+#incluye{
+    font-family: TitleStyle;
+    transform: rotate(-15deg);
+    font-size: 60px;
+    margin: 70px;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+#extras{
+    margin: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: code;
+    font-size: 20px;
+    color: white;
+}
+.imgCosta1{
+    background-image: url("img/plaza-mayor.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+#actividades{
+    margin-left: 90px;
+    color: white;
+    font-family: code;
+}
+#Atitulo,#Atitulo2{
+    margin-left: 90px;
+    color: white;
+    font-family: code;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#mensaje,#mensaje2{
+    margin-left: 90px;
+    color: white;
+    font-family: code;
+    font-size: 20px;
+    margin-top: 0;
+}
+#Atitulo2,#mensaje2{
+    margin-left: 0;
+}
+.imgCosta2,.imgCosta3{
+    background-image: url("img/sanF.jpg");
+    background-position: center;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+#selva{
+    background-image: url("img/fondoSelva.jpg");
+}
+#sierra{
+    background-image: url("img/sierra1.jpg");
+}
+.imgCosta3{
+    background-image: url("img/larcos.jpg");
+}
+.ActiSelva{
+    margin: 0;
+}
+#imgSelva1{
+    background-image: url("img/catalina.jpg");
+}
+#imgselva2{
+    background-image: url("img/selva2.jpg");
+}
+#imgselva3{
+    background-image: url("img/juana.jpg");
+}
+#imgsierra1{
+    background-image: url("img/amacchu.jpg");
+}
+#imgsierra2{
+    background-image: url("img/Ollantaytambo.jpg");
+}
+#imgsierra3{
+    background-image: url("img/pisac.jpg");
+}
+
+
+
+
+footer {
+    background-color: #222; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0;
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-seccion {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-seccion h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-seccion ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-seccion ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-seccion ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-seccion ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .redes-sociales a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-derechos {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+  }
+  
+

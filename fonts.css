@@ -1,0 +1,12 @@
+@font-face {
+    font-family: TitleStyle;
+    src: url("fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: code;
+    src: url("fonts/AfacadFlux-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: subTitle;
+    src: url("fonts/Fredoka-VariableFont_wdth,wght.ttf");
+}

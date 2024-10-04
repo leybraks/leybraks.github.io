@@ -1,0 +1,74 @@
+.img{
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+}
+.title{
+    font-family: code;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.carrito{
+    width: 45px;
+    height: auto;
+    filter: invert(100%);
+    position: absolute;
+    top: 14px;
+    cursor: pointer;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.img{
+    background-image: url("img/etiqueta.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.informacion{
+    margin-top: 55px;
+}
+.informacion>p:first-child{
+    font-family: code;
+    font-size: 20px;
+}
+.informacion .precio{
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion button{
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 5px;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: aquamarine;
+}
+
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+.scroll img{
+    filter: invert(15%);
+}
+.scroll .title{
+    color: #333;
+}

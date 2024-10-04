@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodrally</title>
+    <link rel="icon" href="img/logo-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="stylescart.css">
+    <script type="text/javascript">
+        window.onload = function(){
+        (function(d, script) {
+        script = d.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://w.app/widget-v1/R7Lj1E.js';
+        d.getElementsByTagName('head')[0].appendChild(script);
+        }(document));
+        };
+        </script>
+    <script>
+        window.addEventListener('beforeunload', function() {
+            localStorage.setItem('scrollPosition', window.scrollY);
+        });
+    </script>
+    <script>
+        window.addEventListener('load', function() {
+            const scrollPosition = localStorage.getItem('scrollPosition');
+            if (scrollPosition !== null) {
+                window.scrollTo(0, scrollPosition);
+            }
+        });
+    </script>  
+</head>
+<body>
+    <header id="header">
+        <h2 class="title">Shopping Car</h2>
+        <div>
+            <img class="carrito" src="img/carrito-de-compras.png" alt="carrito compras">
+            <div id="numero"></div>
+        </div>
+    </header>
+    </div>
+    <div class="back">
+        <div class="opaco">
+            <div class="cabecera">
+                <div class="imagenLogo"></div>
+                <div class="titulo">
+                    <h1>Kodrally</h1>
+                </div>
+                <div class="nube1"></div>
+            </div>
+            <div class="cuerpo">
+                <div>
+                    <h2 class="subtitle">SOBRE NOSOTROS:</h2>
+                </div>
+                <div class="nosotros">
+                    <p>Somos mucho más que una plataforma virtual,<br>somos tus compañeros en la busqueda de <br>experiencias inolvidables. Nos apasiona convertir <br>tus sueños de viaje en realidad. Nuestra misión es <br>inspirarte a explorar el mundo y crear recuerdos <br> que perduren toda la vida</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="ofrecetitle">Lo que ofrecemos:</h2>
+    <div class="menu">
+        <a id="planes" href="index.html">Planes</a>
+        <a id="paquetes" href="paquetes.html" >Paquetes</a>
+    </div>
+    <div class="costa">
+        <div class="imagencosta">
+            <div id="costa1">
+                <h2 id="titulocosta">¡DESCUBRE <br> <b id="costaresaltar"> LA COSTA </b><br> CON NOSOTROS!</h2>
+                <p class="textoCosta1">
+                ¡Únete a nosotros en una aventura <br>inolvidable! <br>Descubre la belleza natural, la <br> cultura local y las emocionantes <br>actividades que esta encantadora <br>region tiene para ofrecer.</p>
+            </div>
+            <div id="costa2">
+                <h2 id="incluye">El plan <b id="costaresaltar"> incluye:</b></h2>
+                <ul id="extras">
+                    <li>Transporte ida y vuelta desde lima</li>
+                    <li>Reconocimiento historico</li>
+                    <li>Visita guiada por un especialista calificado</li>
+                </ul>
+                <h2 id="actividades"> <b id="costaresaltar"> ACTIVIDADES</b> PARA HACER:</h2>
+                <div class="imgCosta1" ></div>
+                <p id="Atitulo">CENTRO HISTORICO DE <b id="costaresaltar">LIMA:</b> </p>
+                <p id="mensaje">¡Un viaje al corazon de la historia <br> peruana te espera!</p>
+            </div>
+            <div class="costa3">
+                <p id="Atitulo2">CONVENTO DE <b id="costaresaltar">SAN FRANCISCO:</b> </p>
+                <div class="imgCosta2"></div>
+                <p id="mensaje2">Explora las misteriosas catacumbas <br>y admira la espléndida arquitectura barroca de uno <br>de los monumentos más emblematicos de Lima. </p>
+                <div class="contenedor" id="contenedor">
+                    <div class="img">
+                        <div class="informacion">
+                            <p>Plan costa</p>
+                            <p class="precio">S/35</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="costa" id="selva">
+        <div class="imagencosta">
+            <div id="costa1" >
+                <h2 id="tituloSelva">¡DESCUBRE <br> <b id="costaresaltar"> LA SELVA </b><br> CON NOSOTROS!</h2>
+                <p class="textoCosta1">
+                ¡Únete a nosotros en una aventura <br>inolvidable! <br>Descubre la belleza natural, la <br> cultura local y las emocionantes <br>actividades que esta encantadora <br>region tiene para ofrecer.</p>
+            </div>
+            <div id="costa2">
+                <h2 id="incluye">El plan <b id="costaresaltar"> incluye:</b></h2>
+                <ul id="extras">
+                    <li>Transporte interno en la reserva</li>
+                    <li>Guías especializados que te acompañarán <br> durante las excursiones</li>
+                    <li>Excursiones de caminatas en la selva, <br> navegación en canoas, avistamiento de fauna y flora</li>
+                </ul>
+                <h2 class="ActiSelva" id="actividades"> <b id="costaresaltar"> ACTIVIDADES</b> PARA HACER:</h2>
+                <div class="imgCosta1" id="imgSelva1"></div>
+                <p id="Atitulo">MONASTERIO DE<b id="costaresaltar"> SANTA CATALINA:</b> </p>
+                <p id="mensaje">Monasterio es un vasto complejo que ocupa <br> varias calles y es conocido por su<br> impresionante arquitectura colonial.</p>
+            </div>
+            <div class="costa3">
+                <p id="Atitulo2">PLAZA DE <b id="costaresaltar">ARMAS:</b> </p>
+                <div class="imgCosta2" id="imgselva2"></div>
+                <p id="mensaje2">Aquí se puede admirar la arquitectura colonial de los <br> edificios circundantes, incluyendo la majestuosa <br> Catedral de Arequipa , y disfrutar de la vista del <br> volcán Misti</p>
+                <div class="contenedor" id="contenedor">
+                    <div class="img">
+                        <div class="informacion">
+                            <p>Plan selva</p>
+                            <p class="precio">S/900</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="costa" id="sierra">
+        <div class="imagencosta">
+            <div id="costa1">
+                <h2 id="titulosierra">¡DESCUBRE <br> <b id="costaresaltar"> LA SIERRA </b><br> CON NOSOTROS!</h2>
+                <p class="textoCosta1">
+                ¡Únete a nosotros en una aventura <br>inolvidable! <br>Descubre la belleza natural, la <br> cultura local y las emocionantes <br>actividades que esta encantadora <br>region tiene para ofrecer.</p>
+            </div>
+            <div id="costa2">
+                <h2 id="incluye">El plan <b id="costaresaltar"> incluye:</b></h2>
+                <ul id="extras">
+                    <li>Transporte ida y vuelta desde Cuzco</li>
+                    <li>Reconocimiento historico</li>
+                    <li>Visita guiada por un especialista calificado</li>
+                </ul>
+                <h2 id="actividades"> <b id="costaresaltar"> ACTIVIDADES</b> PARA HACER:</h2>
+                <div class="imgCosta1" id="imgsierra1" ></div>
+                <p id="Atitulo">LA CIUDADELA DE <b id="costaresaltar">MACCHU PICCHU:</b> </p>
+                <p id="mensaje">La impresionante ciudadela inca situada en la <br>cima de los Andes, considerada una de las Nuevas <br>Siete Maravillas del Mundo. </p>
+            </div>
+            <div class="costa3">
+                <p id="Atitulo2">LAS RUINAS DE <b id="costaresaltar">OLLANTAYTAMBO:</b> </p>
+                <div class="imgCosta2" id="imgsierra2"></div>
+                <p id="mensaje2" >Admira sus impresionantes ruinas y disfruta de la <br>auténtica cultura andina en este encantador pueblo <br>historico.</p>
+                <div class="contenedor" id="contenedor">
+                    <div class="img">
+                        <div class="informacion">
+                            <p>Plan sierra</p>
+                            <p class="precio">S/1168</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-contenedor">
+          <div class="footer-seccion">
+            <h4>Sobre nosotros</h4>
+            <p>Somos una empresa dedicada a ofrecer experiencias de viaje únicas y personalizadas. Nuestro objetivo es hacer que tus aventuras sean inolvidables.</p>
+          </div>
+      
+          <div class="footer-seccion">
+            <h4>Enlaces útiles</h4>
+            <ul>
+              <li><a href="/terminos-condiciones">Términos y Condiciones</a></li>
+              <li><a href="/politica-privacidad">Política de Privacidad</a></li>
+              <li><a href="/preguntas-frecuentes">Preguntas Frecuentes (FAQ)</a></li>
+              <li><a href="/contacto">Contacto</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-seccion">
+            <h4>Síguenos</h4>
+            <div class="redes-sociales">
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-derechos">
+          <p>&copy; 2024 Kodrally. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
